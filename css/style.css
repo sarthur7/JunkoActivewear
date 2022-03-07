@@ -1,0 +1,69 @@
+/* Header and Navigation bar */
+.announcement {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: #C3ABB1;
+  color: white;
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
+  font-size: 18px;
+}
+
+.form-inline {
+  justify-content: right;
+  vertical-align: top;
+}
+
+#header{
+  background-image: url(../images/LogoAndShoppingCart.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  height: calc(22vh - 5px);
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: white !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.navbar-nav {
+  color: #574668;
+  font-size: 24px;
+  font: bold;
+  margin: auto;
+  padding: auto;
+}
+
+
+.nav-item {
+  padding: 60px;
+  margin: 10px;
+}
+
+
+
+
+
+
+/* Hero and Cards */
+
+
+
+
+
+/* Blog and Who's Junko */
+
+
+
+
+/* Footer */
