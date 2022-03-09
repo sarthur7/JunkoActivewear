@@ -29,8 +29,8 @@ font-family: 'Sen', sans-serif;
   background-repeat: no-repeat;
   height: calc(22vh - 5px);
   display: flex;
-  align-items: right;
-  justify-content: right;
+  align-items: center;
+  justify-content: center;
 }
 
 .customNav {
@@ -54,6 +54,7 @@ font-family: 'Sen', sans-serif;
   padding: 60px;
   margin: 10px;
   font-family: Sen;
+  color: #574668 !important;
 }
 
 
