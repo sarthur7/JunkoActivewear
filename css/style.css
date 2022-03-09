@@ -117,8 +117,60 @@ font-family: 'Sen', sans-serif;
 
 /* Hero and Cards */
 
-.hero{
-  
+.hero {
+  background-image: url(../images/Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 621px;
+  width: 100vw;
+}
+
+.head1 {
+  font-family: Sen;
+  font-size: 90px;
+  margin-bottom: 25px;
+  color: #574668;
+  margin-top: -45px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.shopNowBtn {
+  height: 58px;
+  width: 247px;
+  background-color: #C3ABB1;opacity: .9;
+  color: #574668;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 13px;
+  border-width: 2px;
+  border-color: #574668;
+  outline-width: .75px;
+  padding-top: 5px;
+  vertical-align: center;
+}
+
+.collections {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.ourCollections {
+  font-family: Sen;
+  font-size: 72px;
+  text-align: center;
+  color: #574668;
+}
+
+.collectionCards {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.card {
+  border: none;
 }
 
 
