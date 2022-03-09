@@ -5,7 +5,10 @@ font-family: 'Sen', sans-serif;
 }
 
 .announcement {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "announcement";
   height: 100%;
   text-align: center;
   width: 100%;
@@ -16,11 +19,19 @@ font-family: 'Sen', sans-serif;
   padding: 0;
   vertical-align: text-bottom;
   font-size: 18px;
+  justify-content: space-between;
 }
 
+.announcement p {
+  grid-area: announcement;
+  justify-self: center;
+}
+
+
 .form-inline {
-  justify-content: right;
-  vertical-align: top;
+    vertical-align: top;
+    grid-area: announcement;
+    justify-self: flex-end;
 }
 
 #header{
