@@ -1,4 +1,8 @@
 /* Header and Navigation bar */
+font-family: 'Poppins', sans-serif;
+font-family: 'Sen', sans-serif;
+
+
 .announcement {
   display: inline-block;
   height: 100%;
@@ -48,6 +52,7 @@
 .nav-item {
   padding: 60px;
   margin: 10px;
+  font-family: Sen;
 }
 
 
