@@ -1,7 +1,8 @@
 /* Header and Navigation bar */
+body {
 font-family: 'Poppins', sans-serif;
 font-family: 'Sen', sans-serif;
-
+}
 
 .announcement {
   display: inline-block;
@@ -10,7 +11,7 @@ font-family: 'Sen', sans-serif;
   width: 100%;
   background: #C3ABB1;
   color: white;
-  font-family: Arial, sans;
+  font-family: Sen;
   margin: 0;
   padding: 0;
   vertical-align: text-bottom;
