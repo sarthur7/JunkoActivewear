@@ -167,6 +167,7 @@ font-family: 'Sen', sans-serif;
   flex-direction: row;
   width: 100vw;
   justify-content: space-around;
+  margin-bottom: 75px;
 }
 
 .card {
@@ -275,7 +276,7 @@ font-family: 'Sen', sans-serif;
     font-family: 'Sen' , sans-serif; 
 }*/
 
-.jumbotron{
+.whosjunko{
   background-image: url(../images/whois.png);
   background-size: cover;
   background-repeat: no-repeat;
