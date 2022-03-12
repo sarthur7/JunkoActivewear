@@ -118,7 +118,7 @@ font-family: 'Sen', sans-serif;
 /* Hero and Cards */
 
 .hero {
-  background-image: url(/images/Hero.png);
+  background-image: url(../images/Hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 621px;
